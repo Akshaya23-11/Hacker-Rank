@@ -33,3 +33,12 @@ def is_leap(year):
 
 year = int(input())
 print(is_leap(year))
+
+
+#The first if statement checks whether the year is divisible by 4 (year % 4 == 0) and not divisible by 100 (year % 100 != 0). If both conditions are true, it returns True, indicating that the year is a leap year.
+
+#The second if statement checks whether the year is divisible by 400 (year % 400 == 0). If this condition is true, it also returns True. This is because years divisible by 400 are exceptions to the rule that years divisible by 100 are not leap years.
+
+
+#If neither of the above conditions is met, the function returns False, indicating that the year is not a leap year.
+
